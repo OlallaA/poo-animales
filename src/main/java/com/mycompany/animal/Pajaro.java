@@ -8,13 +8,16 @@ package com.mycompany.animal;
  *
  * @author Usuario
  */
-public class Gato extends Animal{
+public class Pajaro extends Animal{
     
-    public Gato (String nombre,int edad){
-        Gato(nombre, edad);
+    public Pajaro (String nombre, int edad){
+        super(nombre, edad);
+    
     }
     
-    public void hacerSonido(){
-        System.out.println("Miau");
+    @Override
+    public void hacerSonico(){
+        System.out.println("Pio, pio");
+    
     }
 }

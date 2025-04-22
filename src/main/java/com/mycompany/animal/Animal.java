@@ -14,11 +14,17 @@ public class Animal {
         System.out.println("Sonido de animal");
         
     }
-
+    
     
     private String nombre;
     private int edad;
 
+
+    public Animal(String nombre, int edad) {
+        this.nombre = nombre;
+        this.edad = edad;
+    }
+  
     public String getNombre() {
         return nombre;
     }

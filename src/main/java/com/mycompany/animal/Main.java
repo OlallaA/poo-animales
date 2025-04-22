@@ -16,24 +16,26 @@ public class Main {
       public static void main(String[] args) {
         
       Perro miPerro = new Perro();
-      Gato miGato = new Gato();
+      Gato miGato = new Gato("Glorfindel", 3);
+      Pajaro miPajaro = new Pajaro("Gwaihir", 200);
       
       miPerro.setNombre("Thor");
       miPerro.setEdad(4);
-      
-          System.out.println("Nombre" + miPerro.getNombre());
-          System.out.println("Edad" + miPerro.getEdad());
+          
+          System.out.println("Nombre " + miPerro.getNombre());
+          System.out.println("Edad " + miPerro.getEdad());
           miPerro.hacerSonido();
           
-          
-      miGato.setNombre("Glorfindel");
-      miGato.setEdad(2);
+         
       
-          System.out.println("Nombre" + miGato.getNombre());
-          System.out.println("Edad" + miGato.getEdad());
+          System.out.println("Nombre " + miGato.getNombre());
+          System.out.println("Edad " + miGato.getEdad());
           miGato.hacerSonido();
           
-        
+     
+           System.out.println("Nombre " + miPajaro.getNombre());
+           System.out.println("Edad " + miPajaro.getEdad());
+           miPajaro.hacerSonico();
         
     }
     
